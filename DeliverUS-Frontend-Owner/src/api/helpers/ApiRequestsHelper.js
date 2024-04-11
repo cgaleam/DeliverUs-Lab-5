@@ -1,3 +1,5 @@
+//clase que incluye las funciones GET, PUT, POST, DELETE de peticion HTTP a la api del Backend
+
 import axios from 'axios'
 import { handleError } from './Errors'
 import { prepareData } from './FileUploadHelper'

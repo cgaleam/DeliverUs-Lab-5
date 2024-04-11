@@ -1,3 +1,6 @@
+//incluye las funciones necesarias para realizar operaciones de autorización y relacionadas con el usuario. 
+//También configura el token de autorización para futuras solicitudes.
+
 import { post, put } from './helpers/ApiRequestsHelper'
 
 function login (data) {
